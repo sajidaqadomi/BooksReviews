@@ -18,6 +18,7 @@ function App() {
             <Route exact path='/' element={<Navigate to='/home' />} />
             <Route exact path='/home' element={<Home />} />
             <Route exact path='/book/:id' element={<Book />} />
+            <Route element={<Navigate to='/home' />} />
           </Routes>
         </Main>
         <Footer />
