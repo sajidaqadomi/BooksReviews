@@ -10,7 +10,6 @@ import Container from "../Container";
 
 const AppBarCompnent = ({ setOpenDrawer, openDrawer }) => {
     const classes = useStyles();
-    // const [openDrawer, setOpenDrawer] = useState(false);
 
     const toggleDrawer = () => {
         setOpenDrawer((openDrawer) => !openDrawer);
