@@ -68,6 +68,7 @@ list-style-type: none;
 display: flex;
 flex-direction: column;
 flex:1;
+padding:0;
 
 &.navigation{
     align-items: center;
