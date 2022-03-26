@@ -8,7 +8,7 @@ const Home = () => {
     return (
 
         <ModeContextProvider>
-            <Section title='our most popular categorie' />
+            <Section title='our most popular categories' />
             <Section title='nonfiction' cat='nonfiction' />
             <Section title='fiction' cat='fiction' />
             <Section title="children's" cat='children' />
