@@ -1,5 +1,6 @@
 export { default as AppBar } from './AppBar'
 export { default as Container } from './Container'
+export { default as HeaderComponent } from './AppBar/HeaderComponent'
 export { default as ErrorMessage } from './ErrorMessage'
 export { default as Footer } from './Footer'
 export { default as Loading } from './Loading'

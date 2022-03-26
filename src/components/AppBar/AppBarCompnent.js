@@ -8,9 +8,9 @@ import useStyles from "./styles";
 import DrawerNavigator from "./DrawerNavigator";
 import Container from "../Container";
 
-const AppBarCompnent = () => {
+const AppBarCompnent = ({ setOpenDrawer, openDrawer }) => {
     const classes = useStyles();
-    const [openDrawer, setOpenDrawer] = useState(false);
+    // const [openDrawer, setOpenDrawer] = useState(false);
 
     const toggleDrawer = () => {
         setOpenDrawer((openDrawer) => !openDrawer);
@@ -48,7 +48,7 @@ const AppBarCompnent = () => {
                     </Toolbar>
                 </Container>
             </AppBar>
-            <DrawerNavigator openDrawer={openDrawer} setOpenDrawer={setOpenDrawer} />
+
         </>
     );
 };

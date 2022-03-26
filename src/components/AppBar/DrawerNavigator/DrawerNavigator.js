@@ -10,6 +10,7 @@ import styledComponents from "styled-components";
 import Container from "../../Container";
 import useStyles from "./styles";
 import colors from "../../../config/colors";
+import AppBarCompnent from "../AppBarCompnent";
 
 const SearchContainer = styledComponents.div`
   background-color:${colors.black};
@@ -45,7 +46,8 @@ const DrawerNavigator = ({ openDrawer, setOpenDrawer }) => {
             onClose={() => setOpenDrawer(false)}
             classes={{ root: classes.root, paper: classes.drawerPaper }}
         >
-            <div className={classes.offset} />
+            {/* <div className={classes.offset} /> */}
+            <AppBarCompnent />
             <SearchContainer>
                 <Container>
                     <SearchContent>
